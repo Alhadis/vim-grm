@@ -10,8 +10,14 @@
 " - 2021-10-28: Refactored, repackaged, and reformatted
 " - 2002-08-08: Last-known revision by original author
 
+" Prologue {{{1
+let s:cpo_save = &cpo
+set cpo&vim
+
 " Bail if a syntax file has already been loaded
-if exists("b:current_syntax")
+if version < 600
+	syn clear
+elseif exists("b:current_syntax")
 	finish
 endif
 
@@ -70,5 +76,10 @@ hi def link grmEnumBlock       Constant
 hi          grmDefinitionParam gui=italic guifg=blue
 
 
-" Syntax variable {{{1
+" Epilogue {{{1
 let b:current_syntax = "grm"
+
+let &cpo = s:cpo_save
+unlet s:cpo_save
+
+" vim: set foldmethod=marker noet ts=4:
