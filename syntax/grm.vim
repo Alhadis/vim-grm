@@ -1,8 +1,10 @@
 " Vim syntax file
-" Language:            GRM (Gold PARSER)
+" Language:            GRM (GOLD parser)
+" License:             zlib (http://goldparser.org/about/license.htm)
 " Maintainer:          John Gardner <gardnerjohng@gmail.com>
-" Previous Maintainer: Abderraouf El Gasser
+" Previous Maintainer: Abderraouf El Gasser <abderraouf@ifrance.com>
 " Previous URL:        http://goldparser.org/builder/files/grm.vim
+" Remark:              This is a reformatted and patched copy of http://goldparser.org/builder/files/grm.vim.
 " URL:                 https://github.com/Alhadis/grm.vim
 " Changes:
 " - 2021-10-28: Refactored, repackaged, and reformatted
