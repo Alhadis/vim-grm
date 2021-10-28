@@ -15,7 +15,7 @@ Installation
 ~~~console
 $ mkdir -p ~/.vim/pack
 $ cd ~/.vim/pack
-$ git clone https://github.com/Alhadis/vim-grm.git grm
+$ git clone https://github.com/Alhadis/vim-grm.git
 ~~~
 
 ### Using a third-party package manager
@@ -27,7 +27,7 @@ $ git clone https://github.com/Alhadis/vim-grm.git grm
 ~~~viml
 " ~/.vimrc
 set nocompatible
-call dein#add('Shougo/neosnippet.vim')
+call dein#add('Alhadis/vim-grm')
 ~~~
 
 #### [NeoBundle](https://github.com/Shougo/neobundle.vim)
@@ -43,7 +43,7 @@ Run the following in your terminal:
 ~~~console
 $ mkdir -p ~/.vim/bundle
 $ cd ~/.vim/bundle
-$ git clone https://github.com/Alhadis/vim-grm.git grm
+$ git clone https://github.com/Alhadis/vim-grm.git
 ~~~
 
 You may need to restart Vim before the package can work properly.
