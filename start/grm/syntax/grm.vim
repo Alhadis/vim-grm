@@ -5,7 +5,7 @@
 " Previous Maintainer: Abderraouf El Gasser <abderraouf@ifrance.com>
 " Previous URL:        http://goldparser.org/builder/files/grm.vim
 " Remark:              This is a reformatted and patched copy of http://goldparser.org/builder/files/grm.vim.
-" URL:                 https://github.com/Alhadis/grm.vim
+" Repository:          https://github.com/Alhadis/vim-grm.git
 " Changes:
 " - 2021-10-28: Refactored, repackaged, and reformatted
 " - 2002-08-08: Last-known revision by original author

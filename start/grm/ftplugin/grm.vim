@@ -3,7 +3,7 @@
 " License:    ISC (https://opensource.org/licenses/ISC)
 " Maintainer: John Gardner <gardnerjohng@gmail.com>
 " Remark:     Original file; not part of GOLD Parser's original Vim extension.
-" URL:        https://github.com/Alhadis/grm.vim
+" Repository: https://github.com/Alhadis/vim-grm.git
 
 if exists("b:did_ftplugin")
 	finish
