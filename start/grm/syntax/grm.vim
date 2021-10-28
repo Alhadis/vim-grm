@@ -14,15 +14,16 @@
 " - 2002-08-08: Last-known revision by original author
 
 " Prologue {{{1
-let s:cpo_save = &cpo
-set cpo&vim
 
 " Bail if a syntax file has already been loaded
-if version < 600
+if v:version < 600
 	syn clear
-elseif exists("b:current_syntax")
+elseif exists('b:current_syntax')
 	finish
 endif
+
+let s:cpo_save = &cpoptions
+set cpoptions&vim
 
 
 " Syntax {{{1
@@ -80,9 +81,9 @@ hi          grmDefinitionParam gui=italic guifg=blue
 
 
 " Epilogue {{{1
-let b:current_syntax = "grm"
+let b:current_syntax = 'grm'
 
-let &cpo = s:cpo_save
+let &cpoptions = s:cpo_save
 unlet s:cpo_save
 
 " vim: set foldmethod=marker noet ts=4 sts=0 sw=4:

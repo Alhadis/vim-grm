@@ -1,0 +1,34 @@
+cmdargs:
+    severity: style_problem
+    color: true
+    env: {neovim: true}
+
+policies:
+    ProhibitAutocmdWithNoGroup:
+        enabled: yes
+    ProhibitCommandRelyOnUser:
+        enabled: yes
+    ProhibitCommandWithUnintendedSideEffect:
+        enabled: yes
+    ProhibitEncodingOptionAfterScriptEncoding:
+        enabled: yes
+    ProhibitEqualTildeOperator:
+        enabled: yes
+    ProhibitImplicitScopeBuiltinVariable:
+        enabled: yes
+    ProhibitMissingScriptEncoding:
+        enabled: yes
+    ProhibitNoAbortFunction:
+        enabled: yes
+    ProhibitSetNoCompatible:
+        enabled: no
+    ProhibitUnnecessaryDoubleQuote:
+        enabled: yes
+    ProhibitUnusedVariable:
+        enabled: yes
+    ProhibitUsingUndeclaredVariable:
+        enabled: yes
+    ProhibitAbbreviationOption:
+        enabled: yes
+    ProhibitImplicitScopeVariable:
+        enabled: yes
