@@ -12,3 +12,5 @@ endif
 let b:did_ftplugin = 1
 
 setlocal commentstring='!* %s *!'
+
+" vim: set noet ts=4 sts=0 sw=4:

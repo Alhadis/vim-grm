@@ -82,4 +82,4 @@ let b:current_syntax = "grm"
 let &cpo = s:cpo_save
 unlet s:cpo_save
 
-" vim: set foldmethod=marker noet ts=4:
+" vim: set foldmethod=marker noet ts=4 sts=0 sw=4:
